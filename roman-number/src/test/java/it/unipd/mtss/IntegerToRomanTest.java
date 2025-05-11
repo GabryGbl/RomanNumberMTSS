@@ -12,6 +12,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class IntegerToRomanTest {
     @Test
+    public void testIllegalArgumentException() {
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(0));
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(1001));
+        assertThrows(IllegalArgumentException.class, () -> IntegerToRoman.convert(-1));
+    }
+    @Test
     public void testConvert() {
         assertEquals("I", IntegerToRoman.convert(1));
         assertEquals("II", IntegerToRoman.convert(2));
@@ -44,4 +50,5 @@ public class IntegerToRomanTest {
         assertEquals("CM", IntegerToRoman.convert(900));
         assertEquals("M", IntegerToRoman.convert(1000));
     }
+     
 }
