@@ -18,6 +18,7 @@ jobs:
           cache: maven
 
       - name: Build with Maven
+        working-directory: roman-number
         run: mvn clean verify
 
       - name: Test with JaCoCo
