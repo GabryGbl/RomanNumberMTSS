@@ -6,7 +6,7 @@
 <module name="Checker">
 
   <module name="Header">
-    <property name="file" value="LICENSE.txt"/>
+    <property name="headerFile" value="LICENSE.txt"/>
   </module>
 
   <module name="FileTabCharacter"/>
