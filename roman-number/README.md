@@ -7,5 +7,4 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/GabryGbl/RomanNumberMTSS/badge.svg?branch=develop)](https://coveralls.io/github/GabryGbl/RomanNumberMTSS?branch=develop)
 
-//Per problemi di discrepanza tra la Build Maven e Coveralls abbiamo cambiato da COMPLEXITY A LINE, dato che su 
-//Coveralls ci dava il 90% e la Build 81%
+//Per problemi di discrepanza tra la Build Maven e Coveralls abbiamo cambiato da COMPLEXITY A LINE, dato che su Coveralls ci dava il 90% e la Build 81%
