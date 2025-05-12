@@ -12,6 +12,10 @@
   <module name="FileTabCharacter"/>
   <module name="FileLength"/>
 
+  <module name="LineLength">
+     <property name="max" value="120"/>
+  </module>
+
   <module name="TreeWalker">
 
     <module name="BooleanExpressionComplexity">
@@ -26,9 +30,7 @@
       <property name="max" value="100"/>
     </module>
 
-    <module name="LineLength">
-      <property name="max" value="120"/>
-    </module>
+    
 
     <module name="EmptyCatchBlock"/>
     <module name="AvoidStarImport"/>
